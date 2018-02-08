@@ -1,0 +1,232 @@
+# Logfile created on 2018-02-08 17:03:36 +1100 by logger.rb/56815
+I, [2018-02-08T17:03:36.478904 #32176]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message with test returns a response which has status code 200'
+I, [2018-02-08T17:03:36.479446 #32176]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message with test returns a response which has a matching body'
+I, [2018-02-08T17:03:36.479721 #32176]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message with test returns a response which includes headers "Content-Type" which equals "application/json"'
+I, [2018-02-08T17:13:30.255949 #32322]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message with test returns a response which has status code 200'
+I, [2018-02-08T17:13:30.256464 #32322]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message with test returns a response which has a matching body'
+I, [2018-02-08T17:13:30.256782 #32322]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message with test returns a response which includes headers "Content-Type" which equals "application/json"'
+I, [2018-02-08T17:13:46.218612 #32333]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message with test returns a response which has status code 200'
+I, [2018-02-08T17:13:46.219132 #32333]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message with test returns a response which has a matching body'
+I, [2018-02-08T17:13:46.219395 #32333]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message with test returns a response which includes headers "Content-Type" which equals "application/json"'
+I, [2018-02-08T17:14:04.116426 #32351]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message with test returns a response which has status code 200'
+I, [2018-02-08T17:14:04.117108 #32351]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message with test returns a response which has a matching body'
+I, [2018-02-08T17:14:04.117530 #32351]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message with test returns a response which includes headers "Content-Type" which equals "application/json"'
+I, [2018-02-08T17:14:10.986033 #32367]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message with test returns a response which has status code 200'
+I, [2018-02-08T17:14:10.986587 #32367]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message with test returns a response which has a matching body'
+I, [2018-02-08T17:14:10.986882 #32367]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message with test returns a response which includes headers "Content-Type" which equals "application/json"'
+I, [2018-02-08T17:14:34.261858 #32375]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message with test returns a response which has status code 200'
+I, [2018-02-08T17:14:34.262586 #32375]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message with test returns a response which has a matching body'
+I, [2018-02-08T17:14:34.262885 #32375]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message with test returns a response which includes headers "Content-Type" which equals "application/json"'
+I, [2018-02-08T17:18:51.922503 #33082]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:19:08.090956 #33107]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:19:36.376080 #33130]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:19:51.833929 #33299]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:21:39.839945 #33413]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:22:25.534228 #33443]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:22:51.661760 #33483]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:23:11.401358 #33504]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:25:53.296508 #33606]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:25:54.737991 #33606]  INFO -- : Sending POST request to path: "/verify" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:25:54.738170 #33606] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:25:55.411711 #33606]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:25:55 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"34"}, see debug logs for body
+D, [2018-02-08T17:25:55.411757 #33606] DEBUG -- : body: {"content":{"text":"Hello world"}}
+I, [2018-02-08T17:26:42.113953 #33649]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:26:43.761212 #33649]  INFO -- : Sending POST request to path: "/verify" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:26:43.761423 #33649] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:26:44.227842 #33649]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:26:44 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"34"}, see debug logs for body
+D, [2018-02-08T17:26:44.227902 #33649] DEBUG -- : body: {"content":{"text":"Hello world"}}
+I, [2018-02-08T17:26:59.686027 #33675]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:27:00.756187 #33675]  INFO -- : Sending POST request to path: "/verify" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:27:00.756448 #33675] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:27:01.215908 #33675]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:27:01 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"34"}, see debug logs for body
+D, [2018-02-08T17:27:01.215961 #33675] DEBUG -- : body: {"content":{"text":"Hello world"}}
+I, [2018-02-08T17:27:35.508911 #33699]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:27:40.067138 #33699]  INFO -- : Sending POST request to path: "/verify" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:27:40.067398 #33699] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:27:40.754674 #33699]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:27:40 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"34"}, see debug logs for body
+D, [2018-02-08T17:27:40.754724 #33699] DEBUG -- : body: {"content":{"text":"Hello world"}}
+I, [2018-02-08T17:27:42.276727 #33717]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:27:42.276894 #33717]  INFO -- : Sending POST request to path: "/verify" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:27:42.276947 #33717] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:27:42.289557 #33717]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:27:42 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"34"}, see debug logs for body
+D, [2018-02-08T17:27:42.289608 #33717] DEBUG -- : body: {"content":{"text":"Hello world"}}
+I, [2018-02-08T17:28:28.304999 #33742]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:28:28.305199 #33742]  INFO -- : Sending POST request to path: "/verify" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:28:28.305242 #33742] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:28:28.318793 #33742]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:28:28 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"34"}, see debug logs for body
+D, [2018-02-08T17:28:28.318841 #33742] DEBUG -- : body: {"content":{"text":"Hello world"}}
+I, [2018-02-08T17:28:42.924270 #33756]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:28:42.924476 #33756]  INFO -- : Sending POST request to path: "/verify" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:28:42.924524 #33756] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:28:42.937809 #33756]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:28:42 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"34"}, see debug logs for body
+D, [2018-02-08T17:28:42.937872 #33756] DEBUG -- : body: {"content":{"text":"Hello world"}}
+I, [2018-02-08T17:30:14.786996 #33859]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:30:14.787168 #33859]  INFO -- : Sending POST request to path: "/verify" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:30:14.787206 #33859] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:30:14.799767 #33859]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:30:14 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"34"}, see debug logs for body
+D, [2018-02-08T17:30:14.799816 #33859] DEBUG -- : body: {"content":{"text":"Hello world"}}
+I, [2018-02-08T17:30:31.742893 #33873]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:30:31.743059 #33873]  INFO -- : Sending POST request to path: "/verify" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:30:31.743120 #33873] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:30:31.757264 #33873]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:30:31 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"34"}, see debug logs for body
+D, [2018-02-08T17:30:31.757311 #33873] DEBUG -- : body: {"content":{"text":"Hello world"}}
+I, [2018-02-08T17:31:25.359339 #33911]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:31:25.359507 #33911]  INFO -- : Sending POST request to path: "/verify" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:31:25.359556 #33911] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:31:25.373057 #33911]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:31:25 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"34"}, see debug logs for body
+D, [2018-02-08T17:31:25.373107 #33911] DEBUG -- : body: {"content":{"text":"Hello world"}}
+I, [2018-02-08T17:31:30.850988 #33917]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:31:30.851215 #33917]  INFO -- : Sending POST request to path: "/verify" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:31:30.851274 #33917] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:31:30.866055 #33917]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:31:30 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"34"}, see debug logs for body
+D, [2018-02-08T17:31:30.866102 #33917] DEBUG -- : body: {"content":{"text":"Hello world"}}
+I, [2018-02-08T17:32:21.835751 #33949]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:32:21.835923 #33949]  INFO -- : Sending POST request to path: "/verify" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:32:21.835962 #33949] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:32:21.849199 #33949]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:32:21 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"34"}, see debug logs for body
+D, [2018-02-08T17:32:21.849238 #33949] DEBUG -- : body: {"content":{"text":"Hello world"}}
+I, [2018-02-08T17:32:31.940811 #33964]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:32:31.940987 #33964]  INFO -- : Sending POST request to path: "/verify" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:32:31.941028 #33964] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:32:31.954591 #33964]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:32:31 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"34"}, see debug logs for body
+D, [2018-02-08T17:32:31.954638 #33964] DEBUG -- : body: {"content":{"text":"Hello world"}}
+I, [2018-02-08T17:32:45.471212 #33980]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:32:45.471416 #33980]  INFO -- : Sending POST request to path: "/verify" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:32:45.471460 #33980] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:32:45.485108 #33980]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:32:45 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"34"}, see debug logs for body
+D, [2018-02-08T17:32:45.485156 #33980] DEBUG -- : body: {"content":{"text":"Hello world"}}
+I, [2018-02-08T17:33:35.558297 #34042]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:33:35.558473 #34042]  INFO -- : Sending POST request to path: "/verify" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:33:35.558527 #34042] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:33:35.572505 #34042]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:33:35 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"34"}, see debug logs for body
+D, [2018-02-08T17:33:35.572553 #34042] DEBUG -- : body: {"content":{"text":"Hello world"}}
+I, [2018-02-08T17:33:41.717140 #34056]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:33:41.717325 #34056]  INFO -- : Sending POST request to path: "/verify" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:33:41.717366 #34056] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:33:41.731528 #34056]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:33:41 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"34"}, see debug logs for body
+D, [2018-02-08T17:33:41.731584 #34056] DEBUG -- : body: {"content":{"text":"Hello world"}}
+I, [2018-02-08T17:35:02.753732 #34160]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:35:02.753936 #34160]  INFO -- : Sending POST request to path: "/verify" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:35:02.753997 #34160] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:35:02.767677 #34160]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:35:02 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"34"}, see debug logs for body
+D, [2018-02-08T17:35:02.767725 #34160] DEBUG -- : body: {"content":{"text":"Hello world"}}
+I, [2018-02-08T17:35:14.017748 #34195]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:35:14.017933 #34195]  INFO -- : Sending POST request to path: "/verify" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:35:14.017977 #34195] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:35:14.031928 #34195]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:35:14 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"34"}, see debug logs for body
+D, [2018-02-08T17:35:14.032000 #34195] DEBUG -- : body: {"content":{"text":"Hello world"}}
+I, [2018-02-08T17:35:58.937606 #34222]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:35:58.937771 #34222]  INFO -- : Sending POST request to path: "/verify" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:35:58.937809 #34222] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:35:58.952106 #34222]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:35:58 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"34"}, see debug logs for body
+D, [2018-02-08T17:35:58.952153 #34222] DEBUG -- : body: {"content":{"text":"Hello world"}}
+I, [2018-02-08T17:36:04.027295 #34228]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:36:04.027480 #34228]  INFO -- : Sending POST request to path: "/verify" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:36:04.027545 #34228] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:36:04.041879 #34228]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:36:04 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"34"}, see debug logs for body
+D, [2018-02-08T17:36:04.041929 #34228] DEBUG -- : body: {"content":{"text":"Hello world"}}
+I, [2018-02-08T17:36:41.941003 #34252]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:36:41.941172 #34252]  INFO -- : Sending POST request to path: "/verify" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:36:41.941214 #34252] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:36:41.954097 #34252]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:36:41 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"34"}, see debug logs for body
+D, [2018-02-08T17:36:41.954148 #34252] DEBUG -- : body: {"content":{"text":"Hello world"}}
+I, [2018-02-08T17:37:33.504140 #34276]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:37:33.505263 #34276]  INFO -- : Sending POST request to path: "/verify" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:37:33.505342 #34276] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:37:33.518888 #34276]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:37:33 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"34"}, see debug logs for body
+D, [2018-02-08T17:37:33.518966 #34276] DEBUG -- : body: {"content":{"text":"Hello world"}}
+I, [2018-02-08T17:38:44.363202 #34317]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:38:44.365075 #34317]  INFO -- : Sending POST request to path: "/verify" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:38:44.365455 #34317] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:38:44.382989 #34317]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:38:44 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"34"}, see debug logs for body
+D, [2018-02-08T17:38:44.383035 #34317] DEBUG -- : body: {"content":{"text":"Hello world"}}
+I, [2018-02-08T17:39:38.300319 #34372]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:39:38.300600 #34372]  INFO -- : Sending POST request to path: "/verify" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:39:38.300638 #34372] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:39:38.316845 #34372]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:39:38 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"34"}, see debug logs for body
+D, [2018-02-08T17:39:38.316942 #34372] DEBUG -- : body: {"content":{"text":"Hello world"}}
+I, [2018-02-08T17:40:03.066194 #34378]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:40:03.066552 #34378]  INFO -- : Sending POST request to path: "/verify" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:40:03.066618 #34378] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:40:03.082522 #34378]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:40:03 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"34"}, see debug logs for body
+D, [2018-02-08T17:40:03.082570 #34378] DEBUG -- : body: {"content":{"text":"Hello world"}}
+I, [2018-02-08T17:40:20.668505 #34459]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:40:20.669058 #34459]  INFO -- : Sending POST request to path: "/verify" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:40:20.669154 #34459] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:40:20.688174 #34459]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:40:20 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"34"}, see debug logs for body
+D, [2018-02-08T17:40:20.688219 #34459] DEBUG -- : body: {"content":{"text":"Hello world"}}
+I, [2018-02-08T17:40:34.557703 #34481]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:40:34.557870 #34481]  INFO -- : Sending POST request to path: "/verify" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:40:34.557939 #34481] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:40:34.571765 #34481]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:40:34 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"34"}, see debug logs for body
+D, [2018-02-08T17:40:34.571815 #34481] DEBUG -- : body: {"content":{"text":"Hello world"}}
+I, [2018-02-08T17:41:09.322995 #34499]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:41:09.323173 #34499]  INFO -- : Sending POST request to path: "/verify" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:41:09.323215 #34499] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:41:09.336175 #34499]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:41:09 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"34"}, see debug logs for body
+D, [2018-02-08T17:41:09.336249 #34499] DEBUG -- : body: {"content":{"text":"Hello world"}}
+I, [2018-02-08T17:42:31.504771 #34524]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:42:31.504949 #34524]  INFO -- : Sending POST request to path: "/" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:42:31.504993 #34524] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:42:31.519593 #34524]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:42:31 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"34"}, see debug logs for body
+D, [2018-02-08T17:42:31.519640 #34524] DEBUG -- : body: {"content":{"text":"Hello world"}}
+I, [2018-02-08T17:43:16.618881 #34558]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:43:16.619053 #34558]  INFO -- : Sending POST request to path: "/" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:43:16.619105 #34558] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:43:16.632279 #34558]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:43:16 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"34"}, see debug logs for body
+D, [2018-02-08T17:43:16.632326 #34558] DEBUG -- : body: {"content":{"text":"Hello world"}}
+I, [2018-02-08T17:45:57.024827 #34693]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:45:57.025029 #34693]  INFO -- : Sending POST request to path: "/" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:45:57.025078 #34693] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:45:57.040151 #34693]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:45:57 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"34"}, see debug logs for body
+D, [2018-02-08T17:45:57.040202 #34693] DEBUG -- : body: {"content":{"text":"Hello world"}}
+I, [2018-02-08T17:47:07.894333 #34715]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:47:07.894506 #34715]  INFO -- : Sending POST request to path: "/" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:47:07.894545 #34715] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:47:07.909321 #34715]  INFO -- : Received response with status: 405, headers: {"Allow"=>"GET", "Content-Length"=>"0", "Date"=>"Thu, 08 Feb 2018 06:47:07 GMT", "Server"=>"Webmachine-Ruby/1.5.0 Rack/1.3", "X-Pact-Broker-Version"=>"2.13.1", "X-Content-Type-Options"=>"nosniff", "Connection"=>"keep-alive"}, see debug logs for body
+D, [2018-02-08T17:47:07.909370 #34715] DEBUG -- : body: 
+I, [2018-02-08T17:48:21.150888 #34753]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:48:21.151070 #34753]  INFO -- : Sending POST request to path: "/" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:48:21.151109 #34753] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:48:21.165106 #34753]  INFO -- : Received response with status: 405, headers: {"Allow"=>"GET", "Content-Length"=>"0", "Date"=>"Thu, 08 Feb 2018 06:48:21 GMT", "Server"=>"Webmachine-Ruby/1.5.0 Rack/1.3", "X-Pact-Broker-Version"=>"2.13.1", "X-Content-Type-Options"=>"nosniff", "Connection"=>"keep-alive"}, see debug logs for body
+D, [2018-02-08T17:48:21.165155 #34753] DEBUG -- : body: 
+I, [2018-02-08T17:48:57.238848 #34782]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:48:57.239043 #34782]  INFO -- : Sending POST request to path: "/" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:48:57.239082 #34782] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:48:57.254723 #34782]  INFO -- : Received response with status: 405, headers: {"Allow"=>"GET", "Content-Length"=>"0", "Date"=>"Thu, 08 Feb 2018 06:48:57 GMT", "Server"=>"Webmachine-Ruby/1.5.0 Rack/1.3", "X-Pact-Broker-Version"=>"2.13.1", "X-Content-Type-Options"=>"nosniff", "Connection"=>"keep-alive"}, see debug logs for body
+D, [2018-02-08T17:48:57.254775 #34782] DEBUG -- : body: 
+I, [2018-02-08T17:50:12.274452 #34891]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:50:12.274624 #34891]  INFO -- : Sending POST request to path: "/" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:50:12.274674 #34891] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:50:12.287591 #34891]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:50:12 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"36"}, see debug logs for body
+D, [2018-02-08T17:50:12.287659 #34891] DEBUG -- : body: {"content":{"text":"Hello world!!"}}
+I, [2018-02-08T17:50:19.185830 #34903]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:50:19.186025 #34903]  INFO -- : Sending POST request to path: "/" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:50:19.186068 #34903] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:50:19.200879 #34903]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:50:19 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"36"}, see debug logs for body
+D, [2018-02-08T17:50:19.200931 #34903] DEBUG -- : body: {"content":{"text":"Hello world!!"}}
+I, [2018-02-08T17:50:41.138569 #34914]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:50:41.138748 #34914]  INFO -- : Sending POST request to path: "/" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:50:41.138821 #34914] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:50:41.152617 #34914]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:50:41 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"36"}, see debug logs for body
+D, [2018-02-08T17:50:41.152673 #34914] DEBUG -- : body: {"content":{"text":"Hello world!!"}}
+I, [2018-02-08T17:51:53.512553 #34947]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:51:53.512732 #34947]  INFO -- : Sending POST request to path: "/" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:51:53.512770 #34947] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:51:53.526504 #34947]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:51:53 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"36"}, see debug logs for body
+D, [2018-02-08T17:51:53.526552 #34947] DEBUG -- : body: {"content":{"text":"Hello world!!"}}
+I, [2018-02-08T17:53:41.932701 #35621]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:53:41.932860 #35621]  INFO -- : Sending POST request to path: "/" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:53:41.932902 #35621] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:53:41.946215 #35621]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:53:41 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"36"}, see debug logs for body
+D, [2018-02-08T17:53:41.946270 #35621] DEBUG -- : body: {"content":{"text":"Hello world!!"}}
+I, [2018-02-08T17:58:02.710002 #36236]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T17:58:02.710172 #36236]  INFO -- : Sending POST request to path: "/" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T17:58:02.710225 #36236] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T17:58:02.723261 #36236]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 06:58:02 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"36"}, see debug logs for body
+D, [2018-02-08T17:58:02.723313 #36236] DEBUG -- : body: {"content":{"text":"Hello world!!"}}
+I, [2018-02-08T18:04:53.898030 #37030]  INFO -- : Running example 'Verifying a pact between Foo and Bar A test message has matching content'
+I, [2018-02-08T18:04:53.898205 #37030]  INFO -- : Sending POST request to path: "/" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2018-02-08T18:04:53.898243 #37030] DEBUG -- : body :{"description":"a test message","providerStates":[{"name":null}]}
+I, [2018-02-08T18:04:53.911692 #37030]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.4.2 (Ruby/2.4.1/2017-03-22)", "Date"=>"Thu, 08 Feb 2018 07:04:53 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"36"}, see debug logs for body
+D, [2018-02-08T18:04:53.911741 #37030] DEBUG -- : body: {"content":{"text":"Hello world!!"}}
