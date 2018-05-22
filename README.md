@@ -2,6 +2,8 @@
 
 About time, hey?
 
+Here is some background https://gist.github.com/bethesque/c858e5c15649ae525ef0cc5264b8477c
+
 ## TODO
 
 * Document the consumer side.
