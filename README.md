@@ -23,6 +23,17 @@ Technically, message pact has nothing to do with HTTP, but to allow us to reuse 
 
 <img src="docs/pact-message-verification-sequence-diagram.png">
 
+## How it works - consumer side
+
+1. Test case sets up the interaction, and accepts a message consumer that should be able to handle the message
+1. Test case invokes Verify on the wrapper language
+1. Wrapper may optionally reach out to `pact-message` to `reify` the data structure back into its generated form (i.e. strip out all of the matchers etc.)
+1. Wrapper then invokes the message consumer
+1. If the consumer errors, it fails the test
+1. If the consumer passes, it calls `pact-message update` to save the pact.
+
+<img src="docs/pact-message-consumer-sequence-diagram.png">
+
 ## Usage of this demo
 
 One message will pass, another will fail with the wrong content, another will fail because it can't find the producer method to call, and another will fail because it can't set up the provider state.
