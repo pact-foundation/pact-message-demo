@@ -5,6 +5,7 @@ About time, hey?
 ## TODO
 
 * Document the consumer side.
+* Fully define the checklist for the pact-message wrapper implementor
 * Fully implement v3 pact specification.
     * What's done:
         * Supports the new matching rules location in the JSON document
