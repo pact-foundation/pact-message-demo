@@ -1,0 +1,36 @@
+# Diagram can be created at https://www.websequencediagrams.com/
+
+title Message Pact Consumer Tests
+
+test case -> wrapper language: Given('state').ExpectsToReceive({...})...
+test case -> wrapper language: VerifyConsumer()
+wrapper language -> pact-message : Reify MessageInteraction{} as JSON
+pact-message -> wrapper language: { id: 1 }
+
+alt successful
+    wrapper language -> message consumer
+    : invoke MessageInteraction{}
+    message consumer -> wrapper language :
+    wrapper language -> pact-message : Update MessageInteraction{} as JSON
+    pact-message -> wrapper language :
+    wrapper language  -> test case: done
+else failure
+    wrapper language -> message consumer : invoke MessageInteraction{}
+    message consumer -> wrapper language : error
+    wrapper language  -> test case: fail
+end
+
+note right of message consumer
+    The Message consumer will receive an object containing the actual message, as well
+    as the other aspects of the interaction: description, states and metadata, as these
+    may be used (e.g. metadata can be used as message attributes for MQ implementations)
+
+    MessageInteraction contains the message and related states and metadata e.g.
+
+        { contents: {id: 1}, description: "a user", metadata: { "key: "value } }
+
+    and MessageInteraction as JSON is the JSON representation of a Message parseable
+    by the Ruby runtime e.g.
+
+         { "json_class": "Pact::Term", "data": ... }
+end note
