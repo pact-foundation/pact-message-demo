@@ -2,9 +2,34 @@
   "consumer": {"name": "Foo"},
   "provider": {"name": "Bar"},
   "messages": [{
-    "description": "a test message",
-    "content": {
-      "text": "Hello world!!!"
+    "description": "a hello message",
+    "providerStates": [{
+      "name": "an alligator named Mary exists"
+    }],
+    "contents": {
+      "text": "Hello Mary!!"
+    }
+  },{
+    "description": "a goodbye message",
+    "providerStates": [{
+      "name": "an alligator named John exists"
+    }],
+    "contents": {
+      "text": "Goodbye John!!!"
+    }
+  },{
+    "description": "a message that the verifier doesn't know about",
+    "providerStates": [],
+    "contents": {
+      "text": ""
+    }
+  },{
+    "description": "a hello message",
+    "providerStates": [{
+      "name": "a provider state that hasn't been defined"
+    }],
+    "contents": {
+      "text": ""
     }
   }
   ]

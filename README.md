@@ -4,5 +4,5 @@ About time, hey?
 
 ## Usage
 
-    bundle install
-    ./run.sh
+    script/install.sh
+    script/run-with-standalone.sh
