@@ -59,8 +59,10 @@ class Alligator
 end
 
 # This is the class that invokes the method on the producer to create the required message
-# This class would be written by the producer team, but we should come up with some recommended implementations
-# And a nice DSL to allow the producer team to configure it without having to know about the HTTP stuff.
+# This class would be written by the producer team, but needs to conform to the interface that
+# is expected by the HttpRequestHandler, and should be abstracted using a nice config file and DSL.
+# We should come up with some recommended implementation examples.
+
 class MessageInvoker
   def initialize
     @alligator = nil

@@ -1,0 +1,13 @@
+# Diagram can be created at https://www.websequencediagrams.com/
+
+title Message Pact Verification
+
+pact provider verifier->producer proxy http server: HTTP reqeust containing message descriptor
+producer proxy http server->message invoker: invoke(message_descriptor)
+message invoker->message invoker: set up provider states
+message invoker->message invoker: work out which class/method to call
+message invoker->producer class: invoke method to create message content
+producer class->message invoker: message content
+message invoker->producer proxy http server: message content
+producer proxy http server->pact provider verifier: HTTP response containing message content
+pact provider verifier->pact provider verifier: verify
