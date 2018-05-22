@@ -29,6 +29,6 @@ One message will pass, another will fail with the wrong content, another will fa
 
 ## What the pact-message wrapper implementer needs to do
 
-[ ] Create a DSL for creating/testing the messages in the consumer codebase, and writing the pact.
-[ ] Create a producer proxy for the producer verification
-[ ] Create a nice interface for allowing the produce team to wire up their producer code to the producer proxy (hiding the fact that http is even involved).
+* [ ] Create a DSL for creating/testing the messages in the consumer codebase, and writing the pact.
+* [ ] Create a producer proxy for the producer verification
+* [ ] Create a nice interface for allowing the produce team to wire up their producer code to the producer proxy (hiding the fact that http is even involved).
