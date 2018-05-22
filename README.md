@@ -20,9 +20,15 @@ Technically, message pact has nothing to do with HTTP, but to allow us to reuse 
 
 <img src="docs/pact-message-verification-sequence-diagram.png">
 
-## Usage
+## Usage of this demo
 
 One message will pass, another will fail with the wrong content, another will fail because it can't find the producer method to call, and another will fail because it can't set up the provider state.
 
     script/install.sh
     script/verify-with-standalone.sh
+
+## What the pact-message wrapper implementer needs to do
+
+[ ] Create a DSL for creating/testing the messages in the consumer codebase, and writing the pact.
+[ ] Create a producer proxy for the producer verification
+[ ] Create a nice interface for allowing the produce team to wire up their producer code to the producer proxy (hiding the fact that http is even involved).
