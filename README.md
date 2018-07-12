@@ -21,6 +21,18 @@ Here is some background https://gist.github.com/bethesque/c858e5c15649ae525ef0cc
 
 Technically, message pact has nothing to do with HTTP, but to allow us to reuse the existing pact-provider-verifier code, and to create a langauge agnostic interface that allows the producer verification code to be written in the language of the producer itself, an HTTP producer proxy will need to be created by the pact-message author for each language.
 
+The payload that will be sent to the HTTP Proxy is:
+
+```
+{
+  description: "description",
+  providerStates: [{
+    name: "name",
+    params: {}
+  }]
+}
+```
+
 <img src="docs/pact-message-verification-sequence-diagram.png">
 
 ## How it works - consumer side
