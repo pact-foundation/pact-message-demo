@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem "pact-provider-verifier"
+gem "pact-provider-verifier", ">= 1.12.0"
 gem "pry"
 
 if ENV['X_PACT_DEVELOPMENT']
